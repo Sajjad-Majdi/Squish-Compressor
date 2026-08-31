@@ -1,0 +1,43 @@
+# فقط نصب‌کننده اصلی نگه‌داری می‌شود.
+Installer/*
+!Installer/Squish_1.0.1_x64-setup.exe
+Executable/*
+
+# وابستگی‌ها، خروجی‌های Rust و فایل‌های آزمون محلی
+Source Code/node_modules/
+Source Code/src-tauri/target/
+Source Code/src-tauri/gen/
+Source Code/work/
+Source Code/src-tauri/binaries/ffmpeg.exe
+Source Code/src-tauri/app-icon.png
+Source Code/src-tauri/icons/*
+!Source Code/src-tauri/icons/icon.ico
+*.log
+*.tmp
+*.bak
+
+# تنظیمات شخصی ابزارها
+.idea/
+.vscode/
+.wrangler/
+Thumbs.db
+Desktop.ini
+
+# رازها و کلیدها
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+**/key.properties
+**/local.properties
+**/.dev.vars
+**/.dev.vars.*
+**/credentials.json
+**/secrets.json
+**/google-services.json
+**/GoogleService-Info.plist

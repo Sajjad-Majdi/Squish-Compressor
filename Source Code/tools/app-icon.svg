@@ -1,0 +1,27 @@
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6E78FA"/>
+      <stop offset="1" stop-color="#9E5BF2"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="innerglow" cx="0.5" cy="0.62" r="0.55">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#g)"/>
+  <rect width="1024" height="1024" rx="228" fill="url(#innerglow)"/>
+  <rect width="1024" height="1024" rx="228" fill="url(#sheen)"/>
+  <rect x="26" y="26" width="972" height="972" rx="206" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="8"/>
+  <g stroke="#ffffff" stroke-width="58" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M292 512H172"/>
+    <path d="M252 436l-80 76 80 76"/>
+    <path d="M732 512h120"/>
+    <path d="M772 436l80 76-80 76"/>
+  </g>
+  <circle cx="512" cy="512" r="54" fill="#ffffff"/>
+</svg>
